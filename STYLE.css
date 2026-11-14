@@ -1,0 +1,75 @@
+body{
+    background-image:url(img/ServQuick.jpg);
+    color: white;
+    margin: 0px;
+}
+#Header{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Header a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+#Header a:hover{
+    background-color: #ffffff26;
+    border-radius: 15px;
+}
+#Intro{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    font-size: 45px;
+}
+#Intro p{
+    color: gray;
+}
+
+#Header button{
+    background-color: #0099cc;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#Header button:hover{
+    background-color: #40c6f3;
+}
+#About{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    font-size: 45px;
+}
+#About p,ul{
+    color: gray;
+}
+#Skills{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    font-size: 45px;
+}
+#Projects{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    font-size: 45px;
+}
+#Contact{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    font-size: 45px;
+}
+html{
+    scroll-behavior: smooth;
+}
